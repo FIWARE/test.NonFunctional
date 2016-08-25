@@ -18,7 +18,7 @@ For example, in the latest test related to version 5.3 of the GEri, all the conf
 
 ## Test execution ##
 
-###preliminary setup###
+###Preliminary setup###
 
 Once the HW necessary for the test described previosly at "Testing Environmment" chapter have been setup, the following preliminary steps need to be accomplished before to start the test process:
 
@@ -28,7 +28,7 @@ Once the HW necessary for the test described previosly at "Testing Environmment"
 2. **Configure** Aeron IoTBroker following the [GEri owner istructions](https://github.com/Aeronbroker/Aeron#configure-the-iot-broker-with-setup-scripts).
 3. **Start** the component with the script in the IoTBroker-runner folder
 
-###test by step###
+###Testing step by step###
 
 *coming soon!*
 
