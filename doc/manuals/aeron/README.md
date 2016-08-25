@@ -17,15 +17,28 @@ For example, in the latest test related to version 5.3 of the GEri, all the conf
 
 
 ## Test execution ##
-For the execution 
-Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+###preliminary setup###
+
+Once the HW necessary for the test described previosly at "Testing Environmment" chapter have been setup, the following preliminary steps need to be accomplished before to start the test process:
+
+1. **Download** the source code to the dedicated server through the command:
+	`git clone --branch v5.3.3 https://github.com/Aeronbroker/Aeron.git --single-branch`
+2. **Build** the component following the [GEri owner instructions](https://github.com/Aeronbroker/Aeron#building-iot-broker-source-code)
+2. **Configure** Aeron IoTBroker following the [GEri owner istructions](https://github.com/Aeronbroker/Aeron#configure-the-iot-broker-with-setup-scripts).
+3. **Start** the component with the script in the IoTBroker-runner folder
+
+###test by step###
+
+*coming soon!*
+
 
 
 ## Expected results ##
 
 These tests are intended to:
 
-- monitor the behavior and **performance** of the API `updateContext` -namely a NGSI-10 operation which represents the push-mode interaction of this GEunder a growing workload in order to find its **most production point**.
+- monitor the behavior and **performance** of the API `updateContext` -namely a NGSI-10 operation which represents the push-mode interaction of this GE under a growing workload in order to find its **most production point**.
 - assess the **stability** of the API `queryContext` -namely a NGSI-10 operation designed for the synchronous retrieval of data 
 - monitor the behavior and **performance** of the API `subscribeContext` -namely a NGSI-10 operation which represents the asynchronous data retrieval interaction of this GEunder a growing workload.
 
