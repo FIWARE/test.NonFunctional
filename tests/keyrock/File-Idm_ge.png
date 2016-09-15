@@ -1,0 +1,326 @@
+<!--Código HTML de la política de cookies -->
+  <div class="cookiesmsg" id="cookiemsg">
+    We use proprietary and third party's cookies to improve your experience and our services, identifying your Internet Browsing preferences on our website; develop analytic activities and display advertising based on your preferences. If you keep browsing, you accept its use. You can get more information on our <a href="http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Cookies_Policy_FIWARE">Cookie Policy</a>
+    <button onclick="controlcookies()">Accept</button>
+    <div  class="cookies">Cookies Policy</div>
+  </div>
+  <script type="text/javascript">
+  function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+  }
+
+  if (getCookie("popup_cookie") == "0") {
+    cookiemsg.style.display='none';
+  }
+  </script>
+  <!-- Fin del código de cookies --->
+
+
+  <!--- Codigo para la política de cookies-->
+  <style type="text/css">
+  /* CSS para la animación y localización de los DIV de cookies */
+  @keyframes desaparecer
+  {
+    0%		{bottom: 0px;}
+    80%		{bottom: 0px;}
+    100%		{bottom: -50px;}
+  }
+
+  @-webkit-keyframes desaparecer /* Safari and Chrome */
+  {
+    0%		{bottom: 0px;}
+    80%		{bottom: 0px;}
+    100%		{bottom: -50px;}
+  }
+
+  @keyframes aparecer
+  {
+    0%		{bottom: -38px;}
+    10%		{bottom: 0px;}
+    90%		{bottom: 0px;}
+    100%		{bottom: -38px;}
+  }
+
+  @-webkit-keyframes aparecer /* Safari and Chrome */
+  {
+    0%		{bottom: -38px;}
+    10%		{bottom: 0px;}
+    90%		{bottom: 0px;}
+    100%		{bottom: -38px;}
+  }
+  #cookiesms1:target {
+    display: none;
+  }
+  .cookiesmsg{
+    width:100%;
+    height:45px;
+    margin:0 auto;
+    padding-left:1%;
+    padding-top:1.5%;
+    padding-bottom:20px;
+    font-size: 1.1em;
+    clear:both;
+    font-weight: strong;
+    color: #333;
+    bottom:0px;
+    position:fixed;
+    left: 0px;
+    background-color: #FFF;
+    transition: bottom 1s;
+    -webkit-transition:bottom 1s; /* Safari */
+    -webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+    -moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+    box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+    z-index:999999999;
+  }
+
+  .cookiesmsg:hover{
+    bottom:0px;
+  }
+  .cookies{
+    background-color: #FFF;
+    display:inline;
+    position:absolute;
+    left:1%;
+    top:-30px;
+    font-size:15px;
+    height:30px;
+    padding-left:25px;
+    padding-right:25px;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -moz-border-radius-topright: 15px;
+    -moz-border-radius-topleft: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    -webkit-box-shadow: 3px -3px 1px rgba(50, 50, 50, 0.56);
+    -moz-box-shadow:    3px -3px 1px rgba(50, 50, 50, 0.56);
+    box-shadow:         3px -3px 1px rgba(50, 50, 50, 0.56);
+  }
+  /* Fin del CSS para cookies */
+  </style>
+
+  <!-- SCRIPT CONTROL DE COOKIES -->
+  <script type="text/javascript">
+  function controlcookies() {
+    document.cookie = "popup_cookie=0; max-age=3600; path=/";
+    cookiemsg.style.display='none'; // Esconde la política de cookies
+  }
+  </script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="generator" content="MediaWiki 1.15.5" />
+		<meta name="keywords" content="File:Idm ge.png" />
+		<link rel="shortcut icon" href="/images/icon.png" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/plugins/mediawiki/wiki/fiware/opensearch_desc.php" title="FIWARE Forge Wiki (en)" />
+		<link rel="alternate" type="application/rss+xml" title="FIWARE Forge Wiki RSS feed" href="/plugins/mediawiki/wiki/fiware/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="FIWARE Forge Wiki Atom feed" href="/plugins/mediawiki/wiki/fiware/index.php?title=Special:RecentChanges&amp;feed=atom" />
+		<title>File:Idm ge.png - FIWARE Forge Wiki</title>
+		<link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/skins/common/shared.css?207" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/skins/common/commonPrint.css?207" type="text/css" media="print" />
+		<link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/skins/monobook/main.css?207" type="text/css" media="screen" />
+		<!--[if lt IE 5.5000]><link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/skins/monobook/IE50Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 5.5000]><link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/skins/monobook/IE55Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 6]><link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/skins/monobook/IE60Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<!--[if IE 7]><link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/skins/monobook/IE70Fixes.css?207" type="text/css" media="screen" /><![endif]-->
+		<link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" media="print" />
+		<link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" type="text/css" />
+		<link rel="stylesheet" href="/plugins/mediawiki/wiki/fiware/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" type="text/css" />
+		<!--[if lt IE 7]><script type="text/javascript" src="/plugins/mediawiki/wiki/fiware/skins/common/IEFixes.js?207"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+
+		<script type= "text/javascript">/*<![CDATA[*/
+		var skin = "monobook";
+		var stylepath = "/plugins/mediawiki/wiki/fiware/skins";
+		var wgArticlePath = "/plugins/mediawiki/wiki/fiware/index.php/$1";
+		var wgScriptPath = "/plugins/mediawiki/wiki/fiware";
+		var wgScript = "/plugins/mediawiki/wiki/fiware/index.php";
+		var wgVariantArticlePath = false;
+		var wgActionPaths = {};
+		var wgServer = "https://forge.fiware.org";
+		var wgCanonicalNamespace = "File";
+		var wgCanonicalSpecialPageName = false;
+		var wgNamespaceNumber = 6;
+		var wgPageName = "File:Idm_ge.png";
+		var wgTitle = "Idm ge.png";
+		var wgAction = "view";
+		var wgArticleId = "8310";
+		var wgIsArticle = true;
+		var wgUserName = null;
+		var wgUserGroups = null;
+		var wgUserLanguage = "en";
+		var wgContentLanguage = "en";
+		var wgBreakFrames = false;
+		var wgCurRevisionId = 66434;
+		var wgVersion = "1.15.5";
+		var wgEnableAPI = true;
+		var wgEnableWriteAPI = true;
+		var wgSeparatorTransformTable = ["", ""];
+		var wgDigitTransformTable = ["", ""];
+		var wgRestrictionEdit = [];
+		var wgRestrictionMove = [];
+		/*]]>*/</script>
+
+		<script type="text/javascript" src="/plugins/mediawiki/wiki/fiware/skins/common/wikibits.js?207"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/plugins/mediawiki/wiki/fiware/skins/common/ajax.js?207"></script>
+		<script type="text/javascript" src="/plugins/mediawiki/wiki/fiware/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+	</head>
+<body class="mediawiki ltr ns-6 ns-subject page-File_Idm_ge_png skin-monobook">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 id="firstHeading" class="firstHeading">File:Idm ge.png</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From FIWARE Forge Wiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<ul id="filetoc">
+			<li><a href="#file">File</a></li>
+			<li><a href="#filehistory">File history</a></li>
+			<li><a href="#filelinks">File links</a></li>
+		</ul><div class="fullImageLink" id="file"><a href="/plugins/mediawiki/wiki/fiware/images/c/cc/Idm_ge.png"><img alt="File:Idm ge.png" src="/plugins/mediawiki/wiki/fiware/images/thumb/c/cc/Idm_ge.png/756px-Idm_ge.png" width="756" height="599" border="0" /></a><br /><small>Size of this preview: 756 × 599 pixels</small><br /><a href="/plugins/mediawiki/wiki/fiware/images/c/cc/Idm_ge.png">Full resolution</a>‎ (3,676 × 2,914 pixels, file size: 387 KB, MIME type: image/png)</div>
+<!-- 
+NewPP limit report
+Preprocessor node count: 0/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key gforge:pcache:idhash:8310-0!1!0!!en!2!edit=0 and timestamp 20160913131117 -->
+<h2 id="filehistory">File history</h2><p>Click on a date/time to view the file as it appeared at that time.
+</p>(Latest&#32;|&#32;Earliest) View (newer 50) (older 50) (<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=20#filehistory" title="File:Idm ge.png" class="mw-numlink">20</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=50#filehistory" title="File:Idm ge.png" class="mw-numlink">50</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=100#filehistory" title="File:Idm ge.png" class="mw-numlink">100</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=250#filehistory" title="File:Idm ge.png" class="mw-numlink">250</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=500#filehistory" title="File:Idm ge.png" class="mw-numlink">500</a>)<table class="filehistory">
+<tr><td></td><th>Date/Time</th><th>Thumbnail</th><th>Dimensions</th><th>User</th><th>Comment</th></tr>
+<tr><td>current</td><td class='filehistory-selected' style='white-space: nowrap;'><a href="/plugins/mediawiki/wiki/fiware/images/c/cc/Idm_ge.png">14:13, 8 September 2015</a></td><td><a href="/plugins/mediawiki/wiki/fiware/images/c/cc/Idm_ge.png"><img alt="Thumbnail for version as of 14:13, 8 September 2015" src="/plugins/mediawiki/wiki/fiware/images/thumb/c/cc/Idm_ge.png/120px-Idm_ge.png" width="120" height="95" border="0" /></a></td><td>3,676×2,914 <span style='white-space: nowrap;'>(387 KB)</span></td><td><a href="/plugins/mediawiki/wiki/fiware/index.php?title=User:Cdangerville&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="User:Cdangerville (page does not exist)">Cdangerville</a> <span style='white-space: nowrap;'> <span class="mw-usertoollinks">(<a href="/plugins/mediawiki/wiki/fiware/index.php?title=User_talk:Cdangerville&amp;action=edit&amp;redlink=1" class="new" title="User talk:Cdangerville (page does not exist)">Talk</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php/Special:Contributions/Cdangerville" title="Special:Contributions/Cdangerville">contribs</a>)</span></span></td><td></td></tr>
+<tr><td></td><td  style='white-space: nowrap;'><a href="/plugins/mediawiki/wiki/fiware/images/archive/c/cc/20150908121300%21Idm_ge.png">14:48, 15 June 2015</a></td><td><a href="/plugins/mediawiki/wiki/fiware/images/archive/c/cc/20150908121300%21Idm_ge.png"><img alt="Thumbnail for version as of 14:48, 15 June 2015" src="/plugins/mediawiki/wiki/fiware/images/thumb/archive/c/cc/20150908121300%21Idm_ge.png/120px-Idm_ge.png" width="120" height="83" border="0" /></a></td><td>1,500×1,034 <span style='white-space: nowrap;'>(163 KB)</span></td><td><a href="/plugins/mediawiki/wiki/fiware/index.php?title=User:Cdangerville&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="User:Cdangerville (page does not exist)">Cdangerville</a> <span style='white-space: nowrap;'> <span class="mw-usertoollinks">(<a href="/plugins/mediawiki/wiki/fiware/index.php?title=User_talk:Cdangerville&amp;action=edit&amp;redlink=1" class="new" title="User talk:Cdangerville (page does not exist)">Talk</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php/Special:Contributions/Cdangerville" title="Special:Contributions/Cdangerville">contribs</a>)</span></span></td><td></td></tr>
+<tr><td></td><td  style='white-space: nowrap;'><a href="/plugins/mediawiki/wiki/fiware/images/archive/c/cc/20150615124803%21Idm_ge.png">15:23, 16 October 2013</a></td><td><a href="/plugins/mediawiki/wiki/fiware/images/archive/c/cc/20150615124803%21Idm_ge.png"><img alt="Thumbnail for version as of 15:23, 16 October 2013" src="/plugins/mediawiki/wiki/fiware/images/thumb/archive/c/cc/20150615124803%21Idm_ge.png/120px-Idm_ge.png" width="120" height="83" border="0" /></a></td><td>864×595 <span style='white-space: nowrap;'>(34 KB)</span></td><td><a href="/plugins/mediawiki/wiki/fiware/index.php?title=User:Seidl&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="User:Seidl (page does not exist)">Seidl</a> <span style='white-space: nowrap;'> <span class="mw-usertoollinks">(<a href="/plugins/mediawiki/wiki/fiware/index.php?title=User_talk:Seidl&amp;action=edit&amp;redlink=1" class="new" title="User talk:Seidl (page does not exist)">Talk</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php/Special:Contributions/Seidl" title="Special:Contributions/Seidl">contribs</a>)</span></span></td><td></td></tr>
+</table>
+(Latest&#32;|&#32;Earliest) View (newer 50) (older 50) (<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=20#filehistory" title="File:Idm ge.png" class="mw-numlink">20</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=50#filehistory" title="File:Idm ge.png" class="mw-numlink">50</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=100#filehistory" title="File:Idm ge.png" class="mw-numlink">100</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=250#filehistory" title="File:Idm ge.png" class="mw-numlink">250</a>&#32;|&#32;<a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;limit=500#filehistory" title="File:Idm ge.png" class="mw-numlink">500</a>)
+<br /><ul><li><a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;action=edit&amp;externaledit=true&amp;mode=file" title="File:Idm ge.png">Edit this file using an external application</a> <small>(See the <a href="http://www.mediawiki.org/wiki/Manual:External_editors" class="external text" title="http://www.mediawiki.org/wiki/Manual:External_editors" rel="nofollow">setup instructions</a> for more information)</small></li></ul><h2 id="filelinks">File links</h2>
+<div id='mw-imagepage-section-linkstoimage'>
+<p>The following 5 pages link to this file:
+</p><ul class='mw-imagepage-linkstoimage'>
+<li><a href="/plugins/mediawiki/wiki/fiware/index.php/FIWARE.OpenSpecification.Security.IdentityManagement_R3" title="FIWARE.OpenSpecification.Security.IdentityManagement R3">FIWARE.OpenSpecification.Security.IdentityManagement R3</a></li>
+<li><a href="/plugins/mediawiki/wiki/fiware/index.php/FIWARE.ArchitectureDescription.Security.Identity_Management_Generic_Enabler" title="FIWARE.ArchitectureDescription.Security.Identity Management Generic Enabler">FIWARE.ArchitectureDescription.Security.Identity Management Generic Enabler</a></li>
+<li><a href="/plugins/mediawiki/wiki/fiware/index.php/FIWARE.OpenSpecification.Security.IdentityManagement" title="FIWARE.OpenSpecification.Security.IdentityManagement">FIWARE.OpenSpecification.Security.IdentityManagement</a></li>
+<li><a href="/plugins/mediawiki/wiki/fiware/index.php/FIWARE.ArchitectureDescription.Security.IdentityManagement" title="FIWARE.ArchitectureDescription.Security.IdentityManagement">FIWARE.ArchitectureDescription.Security.IdentityManagement</a></li>
+<li><a href="/plugins/mediawiki/wiki/fiware/index.php/FIWARE.OpenSpecification.Security.IdentityManagement_R5" title="FIWARE.OpenSpecification.Security.IdentityManagement R5">FIWARE.OpenSpecification.Security.IdentityManagement R5</a></li>
+</ul></div>
+<div class="printfooter">
+Retrieved from "<a href="https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/File:Idm_ge.png">https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/File:Idm_ge.png</a>"</div>
+						<!-- end content -->
+						<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-image" class="selected"><a href="/plugins/mediawiki/wiki/fiware/index.php/File:Idm_ge.png" title="View the file page [c]" accesskey="c">File</a></li>
+				 <li id="ca-talk" class="new"><a href="/plugins/mediawiki/wiki/fiware/index.php?title=File_talk:Idm_ge.png&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/plugins/mediawiki/images/Logo-Fiware-no-claim_120x95.png);" href="/plugins/mediawiki/wiki/fiware/index.php/Main_Page" title="Visit the main page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/plugins/mediawiki/wiki/fiware/index.php/Main_Page">Main page</a></li>
+				<li id="n-Quick-Tour"><a href="/plugins/mediawiki/wiki/fiware/index.php/Quick_FI-WARE_tour">Quick Tour</a></li>
+				<li id="n-Our-Vision"><a href="/plugins/mediawiki/wiki/fiware/index.php/Overall_FI-WARE_Vision">Our Vision</a></li>
+				<li id="n-Architecture"><a href="/plugins/mediawiki/wiki/fiware/index.php/FI-WARE_Architecture">Architecture</a></li>
+				<li id="n-Open-Specs-APIs"><a href="/plugins/mediawiki/wiki/fiware/index.php/Summary_of_FI-WARE_API_Open_Specifications">Open Specs APIs</a></li>
+				<li id="n-Roadmap"><a href="/plugins/mediawiki/wiki/fiware/index.php/FI-WARE_Technical_Roadmap">Roadmap</a></li>
+				<li id="n-Implementations"><a href="/plugins/mediawiki/wiki/fiware/index.php/Materializing_the_FI-WARE_Vision">Implementations</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/plugins/mediawiki/wiki/fiware/index.php" id="searchform"><div>
+				<input type='hidden' name="title" value="Special:Search"/>
+				<input id="searchInput" name="search" type="text" title="Search FIWARE Forge Wiki [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/plugins/mediawiki/wiki/fiware/index.php/Special:WhatLinksHere/File:Idm_ge.png" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/plugins/mediawiki/wiki/fiware/index.php/Special:RecentChangesLinked/File:Idm_ge.png" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/plugins/mediawiki/wiki/fiware/index.php/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/plugins/mediawiki/wiki/fiware/index.php?title=File:Idm_ge.png&amp;oldid=66434" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-download-as-pdf"><a href="/plugins/mediawiki/wiki/fiware/index.php?title=Special:Book/render_article/&amp;arttitle=File:Idm_ge.png&amp;oldid=66434&amp;writer=rl" rel="nofollow">PDF version</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-coll-create_a_book'>
+		<h5>Create a book</h5>
+		<div class='pBody'>
+<ul id="collectionPortletList">							<li><a href="https://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/Help:Books" title="Show help about the book tool">Books help</a></li></ul><script type="text/javascript">
+/* <![CDATA[ */
+	function collectionCall(func, args) {
+		sajax_request_type = 'POST';
+		sajax_do_call('wfAjaxCollection' + func, args, function(xhr) {
+			sajax_request_type = 'GET';
+			sajax_do_call('wfAjaxCollectionGetPortlet', [func], function(xhr) {
+				document.getElementById('collectionPortletList').parentNode.innerHTML = xhr.responseText;
+			});
+		});
+	}
+/* ]]> */
+</script>		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/plugins/mediawiki/wiki/fiware/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+					<li id="lastmod"> This page was last modified on 8 September 2015, at 14:13.</li>
+					<li id="viewcount">This page has been accessed 1,018 times.</li>
+
+				<li id="privacy"><a href="/plugins/mediawiki/wiki/fiware/index.php/Cookies_Policy_FIWARE">Cookies Policy</a></li>
+				<li id="privacy"><a href="/plugins/mediawiki/wiki/fiware/index.php/FIWARE_Privacy_Policy">Privacy Policy</a></li>
+
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.341 secs. --></body></html>
