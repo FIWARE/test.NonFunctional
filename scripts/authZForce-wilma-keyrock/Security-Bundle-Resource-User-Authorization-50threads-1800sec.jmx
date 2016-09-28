@@ -15,7 +15,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="HOST" elementType="Argument">
             <stringProp name="Argument.name">HOST</stringProp>
-            <stringProp name="Argument.value">pepwilma</stringProp>
+            <stringProp name="Argument.value">#wilma hostname or IP#</stringProp>
             <stringProp name="Argument.desc">Wilma host</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -53,7 +53,7 @@
         <collectionProp name="HeaderManager.headers">
           <elementProp name="" elementType="Header">
             <stringProp name="Header.name">x-auth-token</stringProp>
-            <stringProp name="Header.value">SknMMQockvMSNEraXDmczDmKM1hEQ6</stringProp>
+            <stringProp name="Header.value">#token#</stringProp>
           </elementProp>
         </collectionProp>
       </HeaderManager>
@@ -89,7 +89,7 @@
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename">/home/ubuntu/SDON-Bundle-Test/Security-Bundle-Resource-User-Authorization-50threads-1800sec.csv</stringProp>
+        <stringProp name="filename">./Security-Bundle-Resource-User-Authorization-50threads-1800sec.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread" enabled="true">
@@ -117,7 +117,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">BundleTestAppPermissionResource</stringProp>
+          <stringProp name="HTTPSampler.path">#path#</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
