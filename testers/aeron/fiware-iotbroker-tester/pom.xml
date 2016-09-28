@@ -11,7 +11,7 @@
     <name>fiware-iotbroker-tester</name>
 
     <description>
-	Classes simulating required apps/agents for testing FIWARE IoT Broker Aeron implentation.
+	Classes simulating required apps/agents for testing FIWARE IoT Broker Aeron implementation.
 	They use only standard JAX-RS API's and the lightweight HTTP server bundled in JDK.
 	</description>
 
@@ -36,7 +36,23 @@
 
     <build>
         <plugins>
-            <plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<finalName>${artifactId}-${version}</finalName>
+				</configuration>
+			</plugin>
+			
+			<plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
@@ -44,26 +60,23 @@
                 </configuration>
 				<version>1.4.0</version>
             </plugin>
-			
+				
 			<!-- Make this jar executable -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
 				<configuration>
-				  <!-- DO NOT include log4j.properties file in your Jar -->
 				  <excludes>
 					<exclude>**/log4j.properties</exclude>
 				  </excludes>
 				  <archive>
 					<manifest>
-						<!-- Jar file entry point -->
 						<mainClass>eng.fiware.iotbroker.tester.App</mainClass>						
 					</manifest>
 				  </archive>
 				</configuration>
 			</plugin>
-
-			
+		
         </plugins>
     </build>
 
