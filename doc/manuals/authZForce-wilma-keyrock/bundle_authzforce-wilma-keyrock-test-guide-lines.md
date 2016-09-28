@@ -33,7 +33,7 @@ Once the environment necessary for the test described previously at "Testing Env
 1. Build and install AuthZForce as described in [GEri owner instructions](http://authzforce-ce-fiware.readthedocs.io/en/release-5.4.1b/InstallationAndAdministrationGuide.html#installation)
 2. Build and install Keyrock as described in [GEri owner instructions](https://github.com/ging/fiware-idm#how-to-build-install)
 3. Create a new user on Keyrock as described [here](http://fiware-idm.readthedocs.io/en/latest/user_guide.html#logging-in)
-4. Once you are logged with the user of the previous step, create a new application on Keyrock as described [here](http://fiware-idm.readthedocs.io/en/latest/user_guide.html#registering-an-application) paying attention to the following points:
+4. Once you are logged in with the user of the previous step, create a new application on Keyrock as described [here](http://fiware-idm.readthedocs.io/en/latest/user_guide.html#registering-an-application) paying attention to the following points:
 	-  Configure the `Callback URL` attribute with a valid URL which points to a configured web page in the Apache server.
 	-  Register a PEP proxy in order to get a `username` and a `password` to be used in Wilma configuration.
 	-  Add a new role with a new permission having HTTP verb `GET` and a valid `path` that (joined with `Callback URL`) which points to a configured web page in the Apache server.
@@ -51,7 +51,7 @@ Once the environment necessary for the test described previously at "Testing Env
 1. Get a valid access token applying the procedure described [here](http://fiware-idm.readthedocs.io/en/latest/oauth2.html#oauth2-authentication)
 
 2. In the file `Security-Bundle-Resource-User-Authorization-50threads-1800sec.jmx` apply the following changes:
-	- Set the value related to the argument `HOST` with Wilma host name or IP address value. The precise point where to apply this change can be easily found by searching the string `#wilma hostname or IP#` and replacing it with the appropriate value.
+	- Set the value related to the argument `HOST` with the Wilma host name or IP address value. The precise point where to apply this change can be easily found by searching the string `#wilma hostname or IP#` and replacing it with the appropriate value.
 	- Set the value related to the parameter `X-Auth-Token` with value obtained in the in the previous step. The precise point where to apply this change can be easily found by searching the string `#token#` and replacing it with the appropriate value.
 	- Set the value related to the URL path with that one used in the user role configuration during Keyrock application setup. The precise point where to apply this change can be easily found by searching the string `#path#` and replacing it with the appropriate value.
 
