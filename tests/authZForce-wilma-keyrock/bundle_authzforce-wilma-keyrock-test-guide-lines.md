@@ -1,14 +1,15 @@
 # Bundle of GEs Wilma-AuthZForce-Keyrock test cases description #
 
-The purpose of this document is to describe the performance test case related to the integration of the follwowing three Generic Enablers: IdM, PEP Proxy and PDP, more specifically their reference implementation named respectively, KeyRock, Wilma and AuthZForce. For the preparation of this test, the most used methods to access a configured IdM/PDP application resource have been taken into account;  in fact the test involved the `resource access` API for managing access to protected REST services.
+The purpose of this document is to describe the performance test case related to the integration of the follwowing three Generic Enablers: IdM, PEP Proxy and PDP, more specifically their reference implementation named respectively, KeyRock, Wilma and AuthZForce.
+For the preparation of this test, the most used methods for protecting access to a configured IdM/PDP application resource have been taken into account;  in fact the test involves the `resource access` API for managing access to protected REST services.
 
-The picture below, that is taken from the GE official documentation, shows how KeyRock, Wilma and AuthZForce GEs can be used in FIWARE and how they fit with the FIWARE architecture.
+The picture below, that is taken from the GE official documentation, shows how the GEs KeyRock, Wilma and AuthZForce can be used in FIWARE and how they fit with the FIWARE architecture.
 
 ![Update data flow](./680px-AuthorizationPDP.Architecture.FMC.Block.png)
 
 ##Policy decision point test case ##
 
-This test aims to stress the `resource access` API in order to evaluate authorization related to a given access request; therefore a valid `access token` (already configured in AuthZForce) is needed to complete this operation.
+This test aims to stress the `resource access` API in order to evaluate performance of authorization related to a given access request; therefore a valid `access token` (already configured in AuthZForce) is needed to complete this operation.
 
 The main actors involved by this scenario, which are among those showed previously in the general structure of the FIWARE GE, are:
 
