@@ -1,4 +1,4 @@
-	\# Keyrock: test cases description #
+# Keyrock: test cases description #
 
 The scenarios defined for stress testing are taken from the most used KeyRock APIs which correspond to the following operations:
 
@@ -21,7 +21,7 @@ The main actors involved by this scenario, which are among those showed previous
 
 The actor `User` is represented by the **JMeter** application installed on a server and configured to send `user authentication` requests to **KeyRock** (an example of this type of request is shown in the table below).
 
-The actor `IdM GE - Authentication & Authorization` which is the **KeyRock** module in charge of fulfilling the aforementioned requests.
+The actor `IdM GE - Authentication & Authorization` is  represented by the **KeyRock** module in charge of fulfilling the aforementioned requests.
 
 Three main steps can be identified in this test, which are:
 
