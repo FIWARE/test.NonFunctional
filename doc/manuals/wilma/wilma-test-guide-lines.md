@@ -1,6 +1,6 @@
 #  PEP Proxy Wilma: non functional test guidelines #
 
-Wilma by UPM (Universidad Politécnica de Madrid) is the FIWARE reference implementation of PEP Proxy Generic Enabler and it is available at its [GitHub repository](https://github.com/ging/fiware-pep-proxy). The description of the non functional tests carried out on this implementation is also published via the GitHub repository at [Fiware/test.NonFunctional](https://github.com/fiware/test.NonFunctional/)
+Wilma by UPM (Universidad Politécnica de Madrid) is the FIWARE reference implementation of PEP Proxy Generic Enabler and it is available at its [GitHub repository](https://github.com/ging/fiware-pep-proxy). The description of the non functional tests carried out on this implementation is also published via the GitHub repository at [Fiware/test.NonFunctional/tests/wilma](../../../tests/wilma/wilma-test-cases.md)
 
 ## Testing environment ##
 The testing HW can be easily set up through a FIWARE Lab, which is based on the cloud operating system OpenStack, and through which it is easy to create and configure a number of machines with the environment [requirements](http://fiware-pep-proxy.readthedocs.io/en/latest/admin_guide/#requirements)  required by the GEri installation. Alternatively a different virtualisation system can be adopted as well as to prepare the overall hardware required, namely all the phisical machines needed for the test, which are:
@@ -18,7 +18,7 @@ Once the environment necessary for the test described previously at "Testing Env
 
 1. Build and install Keyrock as described in [GEri owner instructions](https://github.com/ging/fiware-idm#how-to-build-install)
 2. Create a new user on Keyrock as described [here](http://fiware-idm.readthedocs.io/en/latest/user_guide.html#logging-in)
-3.  Once you are logged in with the user of the previous step, create a new application on Keyrock as described [here](http://fiware-idm.readthedocs.io/en/latest/user_guide.html#registering-an-application) paying attention to configure the `Callback URL` attribute with a valid URL which points to a configured web page in the Apache server. Moreover, in the application section, it's needed register a PEP proxy to get a valid couple of `username` and `password` to be used in the Wilma configuration.
+3.  Once you are logged in with the user of the previous step, create a new application on Keyrock as described [here](http://fiware-idm.readthedocs.io/en/latest/user_guide.html#registering-an-application) paying attention to configure the `Callback URL` attribute with a valid URL which points to an existing web page in the Apache server. Moreover, in the application section, it's needed to register a PEP proxy in order to get a valid couple of `username` and `password` to be used in the Wilma configuration.
 4. Build and install Wilma as described in [GEri owner instructions](http://fiware-pep-proxy.readthedocs.io/en/latest/admin_guide/#system-installation).
 5. On Wilma server, in the file config.js set the following parameters:
 	- config.username = PEP proxy username obtained in the Keyrock application configuration.
