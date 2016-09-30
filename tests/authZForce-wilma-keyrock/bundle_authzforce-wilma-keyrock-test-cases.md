@@ -35,7 +35,7 @@ The scenario is realised by executing the following main steps:
 6. In case of positive response by AuthZForce, Wilma sends the configured `REST` request to Apache and provides the Apache response to JMeter.
 
 **Attention point:**
-> In order to speed up the process,  Wilma saves the couple `token`-`keyrock response`  received by KeyRock at step 4 for a configurable period set by default to 300 s; in this way, for each token already received and checked earlier in KeyRock , steps 2 and 3 are skipped going directly to the step 4.
+> In order to speed up the process,  Wilma saves to a cache the couple `token`-`keyrock response`  received by KeyRock at step 4 for a configurable period set by default to 300 s; in this way, for each subsequent token already checked by KeyRock, steps 2 and 3 are skipped going directly to the step 4.
 
 > Since in this test, for simplicity needs, only one token is used (and reused many times during the test), this caching mechanism should be disabled in order to produce the same behavior (and response times) we would have with different tokens. How to configure this setting is detailed in the [related test guide line](../../doc/manuals/authZForce-wilma-keyrock/bundle_authzforce-wilma-keyrock-test-guide-lines.md).
 
