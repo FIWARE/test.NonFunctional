@@ -1,6 +1,6 @@
 #  Aeron IoT Broker: non functional test guidelines #
 
-Aeron is the FIWARE GE reference implementation of the IoT Broker Generic Enabler by NEC available at its [GitHub repository](https://github.com/Aeronbroker/Aeron). The description of the non functional tests carried out on this implementation is also published via the GitHub repository at [Fiware/test.NonFunctional](https://github.com/fiware/test.NonFunctional/)
+Aeron is the FIWARE GE reference implementation of the IoT Broker Generic Enabler by NEC available at its [GitHub repository](https://github.com/Aeronbroker/Aeron). The description of the non functional tests carried out on this implementation is also published via the GitHub repository at [Fiware/test.NonFunctional/tests/aeron](../../../tests/aeron/aeron-test-cases.md)
 
 ## Expected results ##
 

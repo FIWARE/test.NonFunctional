@@ -6,7 +6,7 @@
 -  Keyrock: [GitHub repository](https://github.com/ging/fiware-idm).
 -  AuthZForce: [GitHub repository](https://github.com/authzforce).
 
-The description of the non functional tests carried out on the interaction of these implementations is also published via the GitHub repository at [Fiware/test.NonFunctional](https://github.com/fiware/test.NonFunctional/)
+The description of the non functional tests carried out on the interaction of these implementations is also published via the GitHub repository at [Fiware/test.NonFunctional/tests/authZForce-wilma-keyrock](../../../tests/authZForce-wilma-keyrock/bundle_authzforce-wilma-keyrock-test-cases.md)
 
 ## Testing environment ##
 The testing HW can be easily set up through a FIWARE Lab, which is based on the cloud operating system OpenStack, and through which it is easy to create and configure a number of machines with the environment requirements needed by each GEri installation, as indicated below. 

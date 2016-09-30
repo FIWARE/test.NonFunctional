@@ -1,6 +1,6 @@
 #  PDP AuthZForce: non functional test guidelines #
 
-AuthZForce by Orange is the FIWARE reference implementation of PDP Generic Enabler and it is available at its [GitHub repository](https://github.com/authzforce). The description of the non functional tests carried out on this implementation is also published via the GitHub repository at [Fiware/test.NonFunctional](https://github.com/fiware/test.NonFunctional/)
+AuthZForce by Orange is the FIWARE reference implementation of PDP Generic Enabler and it is available at its [GitHub repository](https://github.com/authzforce). The description of the non functional tests carried out on this implementation is also published via the GitHub repository at [Fiware/test.NonFunctional/tests/authzforce](../../../tests/authzforce/authzforce-test-cases.md)
 
 ## Testing environment ##
 The testing HW can be easily set up through a FIWARE Lab, which is based on the cloud operating system OpenStack, and through which it is easy to create and configure a number of machines with the environment [requirements](http://authzforce-ce-fiware.readthedocs.io/en/release-5.4.1b/InstallationAndAdministrationGuide.html#system-requirements)  needed by the GEri installation. Alternatively a different virtualisation system can be adopted as well as to prepare the overall hardware required, namely all the phisical machines needed for the test, which are:
