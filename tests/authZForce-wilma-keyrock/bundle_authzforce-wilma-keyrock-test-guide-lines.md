@@ -1,6 +1,6 @@
 # Bundle of GEs Wilma-AuthZForce-Keyrock test cases description #
 
-The purpose of this document is to describe the performance test case related to the integration of the follwowing three Generic Enablers: IdM, PEP Proxy and PDP, more specifically their reference implementation named respectively, KeyRock, Wilma and AuthZForce.
+The purpose of this document is to describe the performance test case related to the integration of the follwowing three Generic Enablers: **IdM**, **PEP Proxy** and **PDP**, more specifically their reference implementation named respectively, **KeyRock**, **Wilma** and **AuthZForce**.
 For the preparation of this test, the most used methods for protecting access to a configured IdM/PDP application resource have been taken into account;  in fact the test involves the `resource access` API for managing access to protected REST services.
 
 The picture below, that is taken from the GE official documentation, shows how the GEs KeyRock, Wilma and AuthZForce can be used in FIWARE and how they fit with the FIWARE architecture.
@@ -21,11 +21,11 @@ The main actors involved by this scenario, which are among those showed previous
 
 The actor `Access Requester` is played by the **JMeter** application that is installed on a dedicated server and configured to send a `rosource access` request to the PEP Proxy GE **Wilma**.
 
-The actors `PEP Proxy GE`, `IdM GE` and `PDP GE` are played by the related reference immplementations which are, respectively: **Wilma**, **Keyrock** and **AuthZForce**; they are installed each one in a dedicated server and they are in charge of fulfilling the aforementioned request.
+The actors `PEP Proxy GE`, `IdM GE` and `PDP GE` are played by the related reference implementations which are, respectively: **Wilma**, **Keyrock** and **AuthZForce**; they are installed each one in a dedicated server and they are in charge of fulfilling the aforementioned request.
 
 The actor `Protected REST Service` is played by the **Apache** application installed on a dedicated server and it is configured to receive a `REST` request from **Wilma**.
 
-The scenario is realized by executing the following main steps:
+The scenario is realised by executing the following main steps:
 
 1. JMeter sends a `resource access` request to Wilma.
 2. Wilma, once received the request, sends a first `authorization request` to Keyrock.
