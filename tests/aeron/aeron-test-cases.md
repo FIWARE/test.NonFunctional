@@ -1,5 +1,3 @@
-This project is part of [FIWARE](https://www.fiware.org/).
-
 # IoT Broker: test cases description #
 The scenarios defined for stress testing are taken from the most used operations of IoT Broker GEri which correspond to the following API methods:
  

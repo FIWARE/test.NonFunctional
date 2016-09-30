@@ -267,7 +267,7 @@
               <threadCounts>true</threadCounts>
             </value>
           </objProp>
-          <stringProp name="filename">./subscription_${__time(yyyy-MM-dd HHmmss)}.dat</stringProp>
+          <stringProp name="filename">./subscription_${__time(yyyy-MM-dd HHmmss)}.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
