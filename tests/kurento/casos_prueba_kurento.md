@@ -1,6 +1,6 @@
 # Kurento: test cases description #
 
-There has been contemplated only a Loopback scenario. For the execution of the tests it was configured a test environment consists of one physical machine for the deployment of Kurento server and 7 virtual machines to inject load. To simulate loading and monitoring Kurento server, has been developed a software adhoc wherein Selenium WebDriver has been used.
+It has only been contemplated a Loopback scenario. For the execution of the tests it was configured a test environment consists of one physical machine for the deployment of Kurento server and 7 virtual machines to inject load. To simulate loading and monitoring Kurento server, has been developed a software adhoc wherein Selenium WebDriver has been used.
 
 ## Test Cases 1.- Loopback’s Stress Scenario ##
 
