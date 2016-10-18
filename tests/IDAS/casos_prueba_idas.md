@@ -9,7 +9,7 @@ It has been only contemplated its most important service that is the one that se
 
 The goal of this scenario is to assess system performance with a high load.
 
-![Actores IDAS ](./IDAS1.png)
+![Actores IDAS ](./IDAS2.png)
 
 In the involved dataflow, as depicted by the picture above, are expected 2 main actors which are played respectively by the hosts shown in the following table:
 
