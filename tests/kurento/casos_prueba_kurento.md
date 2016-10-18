@@ -20,7 +20,7 @@ There is also a physical machine where kurento is deployed.
 
 It's a Loopback scenario. The client sends via browser (Google Chrome) his webcam signal. Then Kurento receives the data, and send it back to the client. For this scenario, it has been used up to 90 simultaneous virtual users.
 
-![funcionamiento Kurento ](./kurento.png)
+![funcionamiento Kurento ](./Kurento.png)
 
 |ID	| GE API method	| Operation	| Type	| Payload	| Max. Concurrent Threads |
 |---|:--------------|:----------|:------|:----------|:------------------------|
