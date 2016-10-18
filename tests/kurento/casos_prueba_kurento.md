@@ -25,3 +25,10 @@ It's a Loopback scenario. The client sends via browser (Google Chrome) his webca
 |ID	| GE API method	| Operation	| Type	| Payload	| Max. Concurrent Threads |
 |---|:--------------|:----------|:------|:----------|:------------------------|
 | 1 |	Loopback |  Loopback	| 	|   | 90 |
+
+
+## Test Cases 2.- Loopback’s Stability Scenario ##
+
+It's the same scenario that we have explained in the first case but with some different conditions.
+
+It has been added a virtual user every minute to reach 20 running the same loopback scenario in Chrome Browser that in the stress scenario. The scenario stops 4 hours after the 20 concurrent threads are reached. The goal of this scenario is to assess the performance of the system through a long time with a moderated load.
