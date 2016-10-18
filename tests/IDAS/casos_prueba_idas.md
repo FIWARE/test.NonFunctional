@@ -23,7 +23,7 @@ There's just one request in this script. This request updates an attribute from 
 
 |ID	| GE API method	| Operation	| Type	| Payload	| Max. Concurrent Threads |
 |---|:--------------|:----------|:------|:----------|:------------------------|
-| 1 |	iot/devices/\${DEVICE_NAME}${DEVICE_NUMBER} | Device Update | PUT |  ![Payload ](./payload1.png) | 200 |
+| 1 |	iot/devices/${DEVICE_NAME}${DEVICE_NUMBER} | Device Update | PUT |  ![Payload ](./payload1.png) | 200 |
 
 Regarding the variables
 
