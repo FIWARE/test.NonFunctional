@@ -11,11 +11,11 @@ Cepheus has a complex architecture. It has two main components CEP and Broker th
 
 The goal of this scenario is to assess system performance when sending the requests directly to CEP with a high load. Here, we can see an example of the used architecture.
 
-![CEP Directo](./CepDirecto.png)
+![CEP Direct](./CepDirect.png)
 
 In the involved dataflow, as depicted by the picture below, are expected 2 main actors which are played respectively by the hosts shown in the following table:
 
-![Actores](./Actores.png)
+![Actors](./Actors.png)
 
 
 | Actor | SW Involved | VM Host | Role |
